@@ -3,16 +3,6 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   border: 0;
   margin: 0;
 }
-body {
-  padding: 0px;
-}
-.header {
-  padding: 15px;
-}
-.content-section {
-  padding: 15px;
-  width: 450px;
-}
 h1 {
   color: #000000;
   margin: 0 0 15px 0;
@@ -44,8 +34,14 @@ ul {
 li {
   margin-bottom: 5px;
 }
+body {
+  padding: 0;
+}
 ol {
   padding: 0 0 0 20px;
+}
+.content-section h2 {
+  text-align: center;
 }
 .nav {
   padding: 0;
@@ -64,4 +60,17 @@ ol {
 .concert-location {
   color: #888888;
   margin: 0 0 15px 0;
+}
+.album {
+  border: 2px dashed #bbbbbb;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+}
+.header {
+  padding: 15px;
+}
+.content-section {
+  padding: 15px;
+  width: 450px;
+  margin: auto 0 auto 0;
 }
