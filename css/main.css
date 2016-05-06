@@ -3,9 +3,9 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   border: 0;
   margin: 0;
 }
-h1 {
-  color: #000000;
-  margin: 0 0 15px 0;
+.header img {
+  display: block;
+  margin: 0 auto 15px auto;
   text-align: center;
 }
 h2 {
@@ -74,13 +74,13 @@ ol {
   padding: 5px 10px 5px 10px;
   margin-bottom: 5px;
 }
-.bands-list h3 {
-  border-bottom: 0px;
-  margin: 0;
-}
 .bands-list {
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 0;
+}
+.bands-list h3 {
+  border-bottom: 0;
+  margin: 0;
 }
 .bands-list a {
   text-decoration: none;
