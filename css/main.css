@@ -42,9 +42,6 @@ body {
 ol {
   padding: 0 0 0 20px;
 }
-.content-section h2 {
-  text-align: center;
-}
 .nav {
   padding: 0;
   text-align: center;
@@ -64,16 +61,31 @@ ol {
   color: #888888;
   margin: 0 0 15px 0;
 }
-.album {
-  border: 2px dashed #bbbbbb;
-  padding: 5px 10px 5px 10px;
-  margin-bottom: 5px;
-}
 .header {
   padding: 15px;
 }
 .content-section {
   padding: 15px;
   width: 450px;
-  margin: auto 0 auto 0;
+  margin: 0 auto;
+}
+.album {
+  border: 2px dashed #bbbbbb;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+}
+.bands-list h3 {
+  border-bottom: 0px;
+  margin: 0;
+}
+.bands-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.bands-list a {
+  text-decoration: none;
+  color: #ff2244;
+}
+.bands-list li {
+  border: 1px solid #555555;
 }
