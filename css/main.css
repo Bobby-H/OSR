@@ -6,10 +6,12 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 h1 {
   color: #000000;
   margin: 0 0 15px 0;
+  text-align: center;
 }
 h2 {
   color: #000000;
   margin: 15px 0 15px;
+  text-align: center;
 }
 h3 {
   color: #333333;
@@ -45,6 +47,7 @@ ol {
 }
 .nav {
   padding: 0;
+  text-align: center;
 }
 .nav li {
   display: inline;
