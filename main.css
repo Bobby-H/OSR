@@ -11,11 +11,10 @@ body {
   background: #242424 url(images/bg-header.png) top center no-repeat;
 }
 .content-section {
-  background:#dddddd url(images/bg-content.png);
+  background:#dddddd url(images/bg-content.png) center;
   padding: 15px;
   width: 450px;
   margin: 0 auto;
-
 }
 .nav a {
   color: #ee932a;
