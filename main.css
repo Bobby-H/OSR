@@ -128,3 +128,14 @@ ol {
 .album img {
   float: right;
 }
+label, input, textarea {
+  display: block;
+}
+input, textarea {
+  margin-bottom: 15px;
+  width: 445px;
+  font-size: 20px;
+}
+label {
+  font-weight: bold;
+}
